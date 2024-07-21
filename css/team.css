@@ -1,0 +1,65 @@
+.row-team {
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-top: 2rem;
+}
+
+.column-team {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column-team {
+      width: 100%;
+      display: block;
+    }
+    .row-team{
+        padding-top: 4rem;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+  }
+  
+  .card-team {
+    background-color: #bb9e7f;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .container-team {
+    padding: 1rem 16px;
+    align-items: center;
+  }
+  
+  .container-team::after, .row-team::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title-team {
+    color: rgb(236, 232, 232);
+  }
+
+  .social-links-team{
+    padding-top: 4px;
+}
+.social-links-team a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0px 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.social-links-team a:hover{
+    color: #ffffff;
+    background-color: #e83831;
+}
+  

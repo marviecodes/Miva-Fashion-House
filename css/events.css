@@ -1,0 +1,68 @@
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+.events-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.event {
+    background-color: #fff;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s;
+}
+
+.event:hover {
+    transform: translateY(-10px);
+}
+
+.event-date {
+    background-color: #e83831;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.date {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.month {
+    display: block;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.event-details {
+    padding: 1rem;
+}
+
+.event-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.event-description {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    .events-container {
+        padding: 0;
+    }
+    .event {
+        width: 500px;
+    }
+
+}
